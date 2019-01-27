@@ -22,7 +22,7 @@ class App extends Component {
       <Provider store={store}>
         <NavBar></NavBar>
         <div className="container">
-          <Router>
+          <Router basename="/contacts-app">
             {routing()}
           </Router>
         </div>
