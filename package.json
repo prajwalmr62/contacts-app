@@ -2,6 +2,7 @@
   "name": "contacts-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://prajwalmr62.github.io/contacts-app/",
   "dependencies": {
     "css_progress_wizard": "^2.0.0",
     "react": "^16.7.0",
