@@ -1,10 +1,12 @@
-/* eslint react/no-multi-comp: 0, react/prop-types: 0 */
+/**
+ * @author prajwalmr62
+ * modal component
+ */
 
 import React from 'react';
 import { Modal, ModalHeader } from 'reactstrap';
 
 class SideOpenModal extends React.Component {
-
   render() {
     const closeBtn = <button className="close" onClick={this.props.toggle}>&times;</button>;
     return (

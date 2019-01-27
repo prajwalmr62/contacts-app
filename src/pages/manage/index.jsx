@@ -208,7 +208,7 @@ class ManageLOC extends React.Component {
     render() {
         return (<React.Fragment>
             <div className="align-items-center row">
-                <div className="col col-md-7 offset-md-2">
+                <div className="col-12 col-md-7 offset-md-2">
                     <Progress currentStage="2"></Progress>
                     <div className="row justify-content-between no-gutters">
                         <span className="text-dark header-align font-weight-bold">Manage Family</span>
@@ -222,7 +222,7 @@ class ManageLOC extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="align-items-center col col-md-3 flex-column justify-content-center no-gutters row">
+                <div className="align-items-center col-12 col-md-3 flex-column justify-content-center no-gutters row">
                 <Link to="/list"><button className="contact-list-button btn btn-success"><i className="fa-2x fa-user-alt fas"></i></button></Link>
                 <span className="font-weight-bold pt-4 text-center">View Phonebook</span>
                 </div>

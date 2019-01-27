@@ -1,3 +1,8 @@
+/**
+ * @author prajwalmr62
+ * progress component
+ */
+
 import * as React from "react";
 
 class ProgressIndicator extends React.Component {

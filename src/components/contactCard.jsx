@@ -1,3 +1,9 @@
+/**
+ * @author prajwalmr62
+ * contact card component
+ */
+
+
 import * as React from "react";
 
 class ContactCard extends React.Component {

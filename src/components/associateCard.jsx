@@ -1,5 +1,14 @@
+/**
+ * @author prajwalmr62
+ * associate card component
+ */
+
+
 import * as React from "react";
 
+/**
+ * Associate card component
+ */
 class AssociateCard extends React.Component {
     render() {
         let sideColorClass = "";
